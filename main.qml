@@ -84,6 +84,7 @@ Window {
                 placeholderText: qsTr("Write a message...")
                 textFormat: TextEdit.RichText
                 verticalAlignment: TextEdit.AlignVCenter
+                selectByMouse: true
 
                 Rectangle {
                     anchors.fill: parent
